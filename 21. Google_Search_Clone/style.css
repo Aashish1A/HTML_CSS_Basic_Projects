@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202124;
+    color: #E8EAED;
+    margin: 0;
+}
+
+.container{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 16px;
+}
+.container img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-bar img{
+    max-width: 28px;
+    height: 28px;
+}
+
+.search-bar:hover{
+    background-color: #303134;
+    border-color: #303134;
+    box-shadow: 0px 0px 4px 2px #1F2022;
+    border-radius: 40px 40px 0 0;
+}
+
+.search-bar:focus-within{
+    background-color: #303134;
+    border-color: #303134;
+    box-shadow: 0px 0px 4px 2px #1F2022;
+    border-radius: 40px 40px 0 0;
+}
+
+.search-menu{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+.search-bar{
+    border-radius: 40px;
+    border: 2px solid #5F6368;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    margin-top: 32px;
+    /* width: 100%; first set width to 100% and then set max width that make responsive */
+}
+.search-bar input{
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    border: none;
+    padding: 16px;
+    font-size: 24px;
+}
+.close-icon{
+    width: 15px;
+    margin-left: 11rem;
+    display: none;
+}
+.search-bar:focus-within .close-icon{
+    display: block;
+}
+
+.suggestion-Menu{
+    background: #303134;
+    /* border-color: #303134; */
+    box-shadow: 0px 0px 4px 2px #1F2022;
+    border-radius: 0 0 40px 40px;
+    padding: 16px 0 24px;
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid #5F6368;
+}
+
+.suggestion-Menu p{
+    font-size: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.search-bar:focus-within + .suggestion-Menu{
+    display: block;
+}
+
+.suggestion-Menu p:hover{
+    background-color: #3C4043;
+}
+
+

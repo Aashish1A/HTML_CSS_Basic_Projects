@@ -1,0 +1,47 @@
+.css{
+    height: 125px;
+    background-color: #1b73e7;
+    color: white;
+    font-family: sans-serif;
+    padding: 3rem;
+
+    /* background-image: url(/Image/background.jpeg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -160px; */
+
+
+
+}
+
+.css img{
+    width: 35px;
+    border-radius: 100%;
+    height: 35px;
+    border: 5px solid white;
+    vertical-align: middle;
+    
+}
+
+img + img {
+    margin-left: -1rem;
+}
+
+body{
+    margin: 0;
+}
+
+span,h1{
+    font-size: 1.5rem;
+}
+
+/* .image-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-self: flex-end;
+    vertical-align: middle;
+    margin-left: 32px;
+} */
+
+

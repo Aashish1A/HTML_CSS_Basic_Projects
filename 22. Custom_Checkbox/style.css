@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #5128C6;
+}
+
+.switch {
+    position: absolute;
+}
+
+.switch label {
+    border: 1px solid #C2C2C2;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    background-color: white;
+    position: relative;
+}
+
+.switch label:hover {
+    border-color: var(--brand-color);
+}
+
+
+.switch:checked + label {
+    border-color: var(--brand-color);
+    background-color: var(--brand-color);
+}
+
+.switch:focus + label, label:active {
+    border-color: var(--brand-color);
+    outline: 2px solid #CFBFFF;
+}

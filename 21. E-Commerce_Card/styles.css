@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #001422 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.circle{
+    border-radius: 100%;
+    position: absolute;
+
+}
+.circle1{
+    height: 120px;
+    width: 120px;
+    background-image: radial-gradient(
+        #EA8BFA,
+        #7526F5 
+    );
+    top: -310px;
+    left: -62px;
+}
+.circle2{
+    height: 329px;
+    width: 329px;
+    background-image: radial-gradient(
+        #FF00C7,
+        #A661FF, 
+        #6100FF
+    );
+    top: -347px;
+    left: 299px;
+}
+.circle3{
+    height: 230px;
+    width: 230px;
+    background-image: radial-gradient(
+        #FED0FF,
+        #7F00FF 
+    );
+    top: 129px;
+    left: -169px;
+}
+
+.card-container{
+    position: relative;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 405px;
+    height: 521px;
+    backdrop-filter: blur(11.15625px);
+    border-radius: 10px;
+    padding: 19px;
+}
+.card-cont{
+    border-radius: 10px;
+    border: 0.744px solid rgba(255,255,255,0.30);
+}
+.card img{
+   width: 100%;
+   vertical-align: middle;
+}
+.heart{
+    max-width: 17px;
+}
+.tag-heart{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 18px;
+    margin-top: 22px;
+}
+.tag{
+    background: rgba(241, 198, 68, 0.24);
+    border-radius: 5.5px;
+    color: #FFD147;
+    padding: 2px 4px;
+    /* padding: 12px; */
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+.star{
+    max-width: 160px;
+    padding-inline: 18px;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 1rem;
+}
+.star .yellow{
+    color: #FFD147;
+}
+.trolley{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    color: inherit;
+    padding: 14px;
+    gap: 10px;
+}
+.trolley img{
+    max-width: 35px;
+}
+.trolley span{
+    color: white;
+    font-size: 18px;
+}
+.card h2{
+    color: white;
+    padding-inline: 18px;
+    font-size: 23px;
+}
+.card p{
+    color: white;
+    padding-inline: 18px;
+}
